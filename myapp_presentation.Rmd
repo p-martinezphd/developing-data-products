@@ -1,0 +1,43 @@
+---
+title: "Summarize Your Data! App"
+author: "Paul Martinez"
+date: "2023-07-21"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+This is an R Markdown presentation presentation of the shiny application: 
+"Summarize Your Data!. In this presentation I will show you how application works and what it does.
+
+## The Application
+
+- Using built-in data sets from R Studio you can now see your data.
+
+- It provides summary statistics and the header rows for the data itself.
+
+- It includes multiple data sets and an update view button.
+
+- This app allows you to explore data quickly and efficiently. 
+
+
+## The Application
+
+![Summarize Your Data!](~/Myapp.png)
+
+
+## Avoid this!
+
+Instead of having to type the code below for each data set the application does it for you
+
+```{r USArrests, echo = TRUE}
+summary(USArrests)
+head(USArrests,50)
+```
+
+## Thank you
+
