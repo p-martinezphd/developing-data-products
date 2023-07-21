@@ -1,0 +1,12 @@
+name: myApp
+title: myApp
+username: paul-martinez-coursera
+account: paul-martinez-coursera
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9489852
+bundleId: 7484158
+url: https://paul-martinez-coursera.shinyapps.io/myApp/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
